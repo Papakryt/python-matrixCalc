@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Papakryt\\Documents\\Programming\\Python\\matrixCalc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{835AFF08-262F-41F5-8428-6B3CBB7C27A8}|matrixCalc\\matrixCalc.pyproj|C:\\Users\\Papakryt\\Documents\\Programming\\Python\\matrixCalc\\matrixCalc\\matrixCalc.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{835AFF08-262F-41F5-8428-6B3CBB7C27A8}|matrixCalc\\matrixCalc.pyproj|solutionrelative:matrixCalc\\matrixCalc.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "matrixCalc.py",
+              "DocumentMoniker": "C:\\Users\\Papakryt\\Documents\\Programming\\Python\\matrixCalc\\matrixCalc\\matrixCalc.py",
+              "RelativeDocumentMoniker": "matrixCalc\\matrixCalc.py",
+              "ToolTip": "C:\\Users\\Papakryt\\Documents\\Programming\\Python\\matrixCalc\\matrixCalc\\matrixCalc.py",
+              "RelativeToolTip": "matrixCalc\\matrixCalc.py",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAACIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-10-20T04:59:53.412Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
