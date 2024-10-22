@@ -4,6 +4,7 @@ MatrixCalc. This programm:
 3. Add two matrix
 4. Sub two matrix
 5. Multi two matrix
+6. Trans matrix
 
 PK0
   new: 
@@ -18,3 +19,6 @@ PK1
     sub(function return res)
   new:
     multi
+PK2
+  new:
+    trans
