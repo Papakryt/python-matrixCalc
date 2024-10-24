@@ -5,6 +5,8 @@ MatrixCalc. This programm:
 4. Sub two matrix
 5. Multi two matrix
 6. Trans matrix
+7. Diag matrix
+8. Determ matrix
 
 PK0
   new: 
@@ -22,3 +24,7 @@ PK1
 PK2
   new:
     trans
+PK3
+  new:
+    diag
+    determ
