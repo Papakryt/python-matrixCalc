@@ -23,6 +23,12 @@ class Matrix:
         return self.M[i][j]
     def indexFill(self,i,j,res):
         self.M[i][j]=res
+    def cloneMatrix(self, M):
+        res = Matrix(M.m,M.n,0)
+        for i in range(0,M.m):
+            for j in range(0,M.n):
+                res.indexFill(i,j,M.M[i][j])
+        return res
     def sumMatrix(self,M):
         if ((self.m==M.m) and (self.n==M.n)):
             res = Matrix(self.m, self.n,0)
@@ -57,13 +63,35 @@ class Matrix:
             for j in range(0,self.n):
                 res.indexFill(j,i,self.M[i][j])
         return res
-    
-m1=int(input("Wrrite line first matrix: "))
-n1=int(input("Wrrite column first matrix: "))
-print("Info first matrix")
-M1=Matrix(m1,n1,1)
-print("First matrix")
-M1.writeMatrix()
-M2=M1.transMatrix()
-print("Trans")
-M2.writeMatrix()
+    def diagMatrix(self):
+        if (self.m==self.n):
+            res = Matrix(self.m,self.n,0)
+            res = res.cloneMatrix(self)
+            for c in range(0,self.m):
+                mem=[]
+                for i in range(0,self.m):
+                    for j in range(0,self.n):
+                        if(i==c):
+                            mem.append(res.indexElement(i,j))
+                        elif((i>c)and(j==c)):
+                            memN = res.M[i][j]
+                            #self.M[i][c]=str(0)
+                            res.indexFill(i,c,str(0))
+                        elif((i>c)and(j>=c)):
+                            #ymn=float(memN)/float(mem[c])
+                            ymn=float(memN)/float(mem[c])
+                            #self.M[i][j]=str(float(self.M[i][j])-float(mem[j])*ymn)
+                            res.indexFill(i,j,str(float(res.M[i][j])-float(mem[j])*ymn))        
+            return res
+    def determMatrix(self):
+        if (self.m==self.n):
+            S=Matrix(self.m,self.n,0)
+            S=S.cloneMatrix(self)
+            S=S.diagMatrix()
+            res=1
+            for i in range(0,self.m):
+                for j in range(0,self.n):
+                    if i==j:
+                        res=res*float(S.M[i][j])
+            return res
+

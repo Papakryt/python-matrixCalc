@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Papakryt\\Documents\\Programming\\Python\\matrixCalc\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{835AFF08-262F-41F5-8428-6B3CBB7C27A8}|matrixCalc\\matrixCalc.pyproj|C:\\Users\\Papakryt\\Documents\\Programming\\Python\\matrixCalc\\matrixCalc\\main.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{835AFF08-262F-41F5-8428-6B3CBB7C27A8}|matrixCalc\\matrixCalc.pyproj|solutionrelative:matrixCalc\\main.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{835AFF08-262F-41F5-8428-6B3CBB7C27A8}|matrixCalc\\matrixCalc.pyproj|C:\\Users\\Papakryt\\Documents\\Programming\\Python\\matrixCalc\\matrixCalc\\matrixCalc.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{835AFF08-262F-41F5-8428-6B3CBB7C27A8}|matrixCalc\\matrixCalc.pyproj|solutionrelative:matrixCalc\\matrixCalc.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
@@ -14,17 +18,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "main.py",
+              "DocumentMoniker": "C:\\Users\\Papakryt\\Documents\\Programming\\Python\\matrixCalc\\matrixCalc\\main.py",
+              "RelativeDocumentMoniker": "matrixCalc\\main.py",
+              "ToolTip": "C:\\Users\\Papakryt\\Documents\\Programming\\Python\\matrixCalc\\matrixCalc\\main.py",
+              "RelativeToolTip": "matrixCalc\\main.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-10-24T21:27:59.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "matrixCalc.py",
               "DocumentMoniker": "C:\\Users\\Papakryt\\Documents\\Programming\\Python\\matrixCalc\\matrixCalc\\matrixCalc.py",
               "RelativeDocumentMoniker": "matrixCalc\\matrixCalc.py",
               "ToolTip": "C:\\Users\\Papakryt\\Documents\\Programming\\Python\\matrixCalc\\matrixCalc\\matrixCalc.py",
               "RelativeToolTip": "matrixCalc\\matrixCalc.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2024-10-20T04:59:53.412Z",
               "EditorCaption": ""
